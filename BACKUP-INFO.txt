@@ -1,0 +1,14 @@
+Dim Sum Queue - Full Source Backup
+Backup date: 2026-08-24 (Asia/Bangkok)
+Frontend: https://dimsumque.wanat-n.workers.dev/
+Cloudflare Version ID: 67a6e489-5790-470d-8a76-e8d61f2b8e4f
+Convex Production: https://clear-marlin-435.convex.cloud
+
+Restore / deploy:
+1. npm install
+2. npx convex login
+3. npm run deploy
+
+Excluded from ZIP: node_modules, .wrangler
+Included: source, Convex schema/functions/generated bindings, package lock,
+Cloudflare config, environment configuration, README, and production dist.
